@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.screen {
+  background-color: palegoldenrod;
+  height: 100vh;
+}
+
+@media screen and (max-width:1080px) {
+    .screen{
+        background-color: darkblue;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .screen{
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .screen{
+        background-color: blue;
+    }
+}
+
+/* 320 - 480 Mobile */
+/* 481 - 768 Tablet */
+/* 768 - 1080 Mini Laptop */
+/* 1081 - 1440 Laptop */
+/* 1440 - 1560 Big Screen | Monitor */
+/* 1560+ large screens */
+
+/* Responsiveness in your web app */
+/* each diff device has diff width of screen  */
+/*  13 inch , 5 - 8 inchs */
+
+/* Media Quaries are something with the help of those you can access the width of the machine from which user accessing or visiting your website */
