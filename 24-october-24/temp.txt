@@ -1,0 +1,17 @@
+Directory ??
+
+Directory ?? - folder in linux you call it as a Directory?
+
+pwd - present working Directory
+
+cd - change directory
+
+cd .. - parent directory
+
+mkdir - make directory
+
+rmdir - remove directory
+
+touch 'index.html'
+
+ls - list 
