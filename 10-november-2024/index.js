@@ -3,8 +3,10 @@ const app = express();
 const db = require("./config/db");
 const Todo = require("./schema/todo");
 const User = require("./schema/User");
+const cors = require('cors');
 
 app.use(express.json());
+app.use(cors());
 db();
 
 const PORT = 8000;
